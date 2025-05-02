@@ -28,6 +28,25 @@ git checkout
 cd adev/src/content/tutorials
 ```
 
+## RxJS
+- [RxJSで学ぶリアクティブプログラミング](https://qiita.com/kuriyamay/items/0a488071bc641ba72c56)
+- [【Angular】【RxJS】Observerについて](https://zenn.dev/milab/articles/a129309d9a84b7)
+- [RxJS の基本理解](https://zenn.dev/mikakane/articles/rxjs_2_tutorial)
+- [[RxJS] RxJS の学習メモ-Subject](https://qiita.com/ksh-fthr/items/54b19b4160505e2fddd9)
+- [RxJSの基礎中の基礎](https://qiita.com/agajo/items/7942743a0130f7a0f30b)
+
+### English
+- [Observables & RxJS](https://v17.angular.io/guide/observables)
+- [RxJS](https://rxjs.dev/guide/overview)
+- [ReactiveX](https://reactivex.io/intro.html)
+- Tools
+    - [Rx Visualizer](https://rxviz.com/)
+- Documents
+    - [Intro to RxJava](https://github.com/Froussios/Intro-To-RxJava)
+    - [RxJS - Javascript library for functional reactive programming](https://xgrommx.github.io/rx-book/index.html)
+    - [Learn RxJS](https://www.learnrxjs.io/)
+
+
 ## Programing challenge
 - JavaScript
     - [Elevator Saga](https://play.elevatorsaga.com/)
@@ -37,6 +56,8 @@ cd adev/src/content/tutorials
         - [TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
         - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
         - [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
+- RxJS
+    - [Functional Programming in Javascript](https://reactivex.io/learnrx/)
 - 多言語
     - [プログラミングスキルチェック - paiza](https://paiza.jp/challenges/practice)
 
