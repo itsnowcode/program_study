@@ -11,11 +11,6 @@ Program study in Japanese.
 ## JavaScript
 - [MDN](https://developer.mozilla.org/ja/docs/Learn_web_development/Core/Scripting)
 
-### Programing challenge
-- [Elevator Saga](https://play.elevatorsaga.com/)
-    - [Elevator Saga 1 はじめてみる](https://qiita.com/recuraki/items/642d53112d29483a8b58)
-- [プログラミングスキルチェック - paiza](https://paiza.jp/challenges/practice)
-
 ## TypeScript
 - [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive)
 
@@ -32,6 +27,18 @@ git sparse-checkout set --cone adev/src/content/tutorials
 git checkout
 cd adev/src/content/tutorials
 ```
+
+## Programing challenge
+- JavaScript
+    - [Elevator Saga](https://play.elevatorsaga.com/)
+        - [Elevator Saga 1 はじめてみる](https://qiita.com/recuraki/items/642d53112d29483a8b58)
+- TypeScript
+    - [Type Challenge](https://github.com/type-challenges/type-challenges/blob/main/README.ja.md)
+        - [TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+        - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+        - [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
+- 多言語
+    - [プログラミングスキルチェック - paiza](https://paiza.jp/challenges/practice)
 
 
 
