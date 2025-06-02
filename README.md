@@ -12,6 +12,7 @@ Program study in Japanese.
 - [MDN](https://developer.mozilla.org/ja/docs/Learn_web_development/Core/Scripting)
 
 ## TypeScript
+- [サバイバルTypeScript](https://typescriptbook.jp/)
 - [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive)
 
 ## Angular
