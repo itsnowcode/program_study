@@ -24,7 +24,7 @@ Program study in Japanese.
 ```bash
 git clone --depth 1 --filter=tree:0 --no-checkout https://github.com/angular/angular.git angular
 cd angular
-git sparse-checkout set --cone adev/src/content/tutorials
+git sparse-checkout set --cone adev/src/content/tutorials adev/shared-docs/pipeline/tutorials
 git checkout
 cd adev/src/content/tutorials
 ```
