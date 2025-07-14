@@ -63,6 +63,18 @@ cd adev/src/content/tutorials
     - [プログラミングスキルチェック - paiza](https://paiza.jp/challenges/practice)
 
 
+## 公開されている新人研修資料
+
+| 企業名              | タイトル | リンク |
+|--------------------|-------------|--------|
+| サイボウズ         | 2025年のエンジニア新人研修の講義資料を公開しました | [サイボウズエンジニアのブログ](https://blog.cybozu.io/entry/2025/07/08/171543) |
+| リクルート         | 株式会社リクルート　エンジニアコース新人研修の内容を公開します！（2024年度版 | [リクルート Tech Blog](https://techblog.recruit.co.jp/article-4635/) |
+| mixi   | 【2024年版】MIXI 新卒向け技術研修の資料・動画を公開しました！ | [Zenn](https://qiita.com/KNR109/items/ac51f7eeace9d1b7b81b) |
+| 各社まとめ（Qiita） | 【最新版】有名企業のエンジニア向け研修資料まとめ | [Qiitaまとめ記事](https://qiita.com/KNR109/items/ac51f7eeace9d1b7b81b) |
+| 各社まとめ（Qiita） | 【2024年度】エンジニア向け研修資料まとめ | [Qiitaまとめ記事](https://qiita.com/nucomiya/items/29965f1915436f2cfc79) |
+| エンジニア向け研修（過去分） | 研修資料まとめ.md | [GitHub Gist](https://gist.github.com/gcchaan/02f4746a323acac4095c30e0783a3912) |
+
+
 
 # in English
 ## HTML CSS JavaScript and so on
