@@ -1,0 +1,19 @@
+
+
+
+<main class="main">
+  <div class="content">
+    <section class="counter-section">
+      <h2>Signal Counter</h2>
+      <div class="counter-row">
+        <button type="button" (click)="decrement()" class="counter-btn">−</button>
+        <span class="counter-value">{{ count() }}</span>
+        <button type="button" (click)="increment()" class="counter-btn">＋</button>
+      </div>
+      <button type="button" (click)="reset()" class="reset-btn">リセット</button>
+      <div>現在値: <strong>{{ count() }}</strong></div>
+      <div>偶数/奇数: <strong>{{ parity() }}</strong></div>
+    </section>
+  </div>
+</main>
+<router-outlet />

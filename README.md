@@ -62,6 +62,9 @@ cd adev/src/content/tutorials
 - 多言語
     - [プログラミングスキルチェック - paiza](https://paiza.jp/challenges/practice)
 
+## 演習
+- [Angular](./angular/index.md)
+
 
 ## 公開されている新人研修資料
 
@@ -76,7 +79,7 @@ cd adev/src/content/tutorials
 
 
 
-# in English
+# program_study in English
 ## HTML CSS JavaScript and so on
 - [W3Schools](https://www.w3schools.com/)
 
