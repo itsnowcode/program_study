@@ -1,0 +1,24 @@
+
+
+
+<main class="main">
+  <div class="content">
+    <section class="linked-signal-section">
+      <h3>カテゴリ連動セレクトボックス</h3>
+      <label>
+        カテゴリ:
+        <select [value]="selectedCategory()" (change)="onCategoryChange($event.target)">
+          <option *ngFor="let c of categories" [value]="c">{{ c }}</option>
+        </select>
+      </label>
+      <br />
+      <label>
+        アイテム:
+        <select [value]="selectedItem()" (change)="onItemChange($event.target)">
+          <option *ngFor="let item of items" [value]="item">{{ item }}</option>
+        </select>
+      </label>
+    </section>
+  </div>
+</main>
+<router-outlet />
