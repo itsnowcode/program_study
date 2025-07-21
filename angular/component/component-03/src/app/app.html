@@ -1,0 +1,13 @@
+
+
+
+<main class="main">
+  <div class="content">
+    <section class="content-section">
+      <h2>Hello, Angular</h2>
+      <app-output-props (valueChange)="onChildValueChange($event)"></app-output-props>
+      <p>子からの値: {{ childValue }}</p>
+    </section>
+  </div>
+</main>
+<router-outlet />
