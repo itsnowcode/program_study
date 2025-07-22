@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "base": {
+    "component-04": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -62,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "base:build:production"
+              "buildTarget": "component-04:build:production"
             },
             "development": {
-              "buildTarget": "base:build:development"
+              "buildTarget": "component-04:build:development"
             }
           },
           "defaultConfiguration": "development"
