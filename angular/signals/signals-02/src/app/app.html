@@ -14,7 +14,7 @@
       <br />
       <label>
         アイテム:
-        <select [value]="selectedItem()" (change)="onItemChange($event.target)">
+        <select [ngModel]="selectedItem()" (change)="onItemChange($event.target)">
           <option *ngFor="let item of items" [value]="item">{{ item }}</option>
         </select>
       </label>

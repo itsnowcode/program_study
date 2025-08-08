@@ -1,4 +1,4 @@
-import { Component, signal, computed } from '@angular/core';
+import { Component, signal, computed, effect } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -15,6 +15,12 @@ export class App {
 
   // 偶数/奇数をcomputedで判定
   readonly parity = computed(() => (this.count() % 2 === 0 ? '偶数 (Even)' : '奇数 (Odd)'));
+
+  constructor() {
+    effect(() => {
+      console.log(`The count is: ${this.count()}`);
+    });
+  }
 
   // +1
   increment() {

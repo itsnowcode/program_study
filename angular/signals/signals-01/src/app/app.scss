@@ -8,12 +8,14 @@
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 .counter-row {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 .counter-btn {
   font-size: 1.5rem;
