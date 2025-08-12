@@ -1,12 +1,12 @@
 import { Component, signal, input, WritableSignal } from '@angular/core';
 
 @Component({
-  selector: 'app-signal-input-props',
+  selector: 'app-input-props',
   standalone: true,
-  templateUrl: './signal-input-props.component.html',
-  styleUrl: './signal-input-props.component.scss'
+  templateUrl: './input-props.component.html',
+  styleUrl: './input-props.component.scss'
 })
-export class SignalInputPropsComponent {
+export class InputPropsComponent {
   requiredProp = input.required<string, string>({
     transform: (value: string) => value.trim()
   });
