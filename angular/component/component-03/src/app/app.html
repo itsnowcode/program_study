@@ -5,8 +5,9 @@
   <div class="content">
     <section class="content-section">
       <h2>Hello, Angular</h2>
-      <app-output-props (valueChange)="onChildValueChange($event)"></app-output-props>
-      <p>子からの値: {{ childValue }}</p>
+      <app-output-props (valueChange)="onChildValueChange($event)" [(model)]="model"></app-output-props>
+      <p>子からの出力: {{ childValue }}</p>
+      <p>子からのモデル: {{ model() }}</p>
     </section>
   </div>
 </main>

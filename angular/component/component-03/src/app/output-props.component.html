@@ -1,6 +1,12 @@
 <div class="output-props">
   <h4>出力プロパティ課題</h4>
-  <input type="text" [value]="model()" (input)="onInput($event)" />
-  <button (click)="emitValue()">値を出力</button>
-  <p>現在の値: {{ model() }}</p>
+  <div>
+    <input type="text" [(ngModel)]="text" />
+    <button (click)="emitValue()">値を出力</button>
+  </div>
+  <hr />
+  <div>
+    <button (click)="increment()">インクリメント</button>
+    <p>現在のモデル: {{ model() }}</p>
+  </div>
 </div>

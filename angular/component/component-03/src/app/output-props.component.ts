@@ -1,21 +1,23 @@
-import { Component, Output, EventEmitter, signal } from '@angular/core';
+import { Component, Output, EventEmitter, signal, model } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-output-props',
+  imports: [FormsModule],
   standalone: true,
   templateUrl: './output-props.component.html',
   styleUrl: './output-props.component.scss'
 })
 export class OutputPropsComponent {
-  model = signal('');
+  model = model(0);
+  text = signal('');
   @Output() valueChange = new EventEmitter<string>();
 
-  onInput(event: Event) {
-    const value = (event.target as HTMLInputElement)?.value ?? '';
-    this.model.set(value);
+  emitValue() {
+    this.valueChange.emit(this.text());
   }
 
-  emitValue() {
-    this.valueChange.emit(this.model());
+  increment() {
+    this.model.update(oldValue => oldValue+ 1);
   }
 }

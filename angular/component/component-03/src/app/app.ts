@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { OutputPropsComponent } from './output-props.component';
 
@@ -10,6 +10,7 @@ import { OutputPropsComponent } from './output-props.component';
 })
 export class App {
   childValue = '';
+  model = signal(0)
   onChildValueChange(value: string) {
     this.childValue = value;
   }
