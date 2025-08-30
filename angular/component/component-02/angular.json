@@ -2,12 +2,16 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
+  "cli": {
+    "analytics": false
+  },
   "projects": {
-    "signals-01": {
+    "component-02": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "scss",
+          "type": "component"
         }
       },
       "root": "",
@@ -61,10 +65,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "signals-01:build:production"
+              "buildTarget": "component-02:build:production"
             },
             "development": {
-              "buildTarget": "signals-01:build:development"
+              "buildTarget": "component-02:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -1,0 +1,14 @@
+<main class="main">
+  <div class="content">
+    <section class="content-section">
+      <h2>Hello, Angular</h2>
+      <button (click)="changeData()">データ変更</button>
+      <button (click)="toggleChild()">オン/オフ切り替え</button>
+
+      @if (showChild) {
+      <app-lifecycle *ngIf="showChild" [count]="parentCount"></app-lifecycle>
+      }
+    </section>
+  </div>
+</main>
+<router-outlet />

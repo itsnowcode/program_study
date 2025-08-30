@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, signal, linkedSignal, WritableSignal } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, FormsModule],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
@@ -20,7 +21,7 @@ export class App {
   readonly selectedCategory = signal(this.categories[0]);
   readonly selectedItem = linkedSignal({
     source: () => this.selectedCategory(),
-    computation: (category: string) => this.itemsMap[category][0]
+    computation: (category: string) => this.itemsMap[category][1]
   });
 
   get items() {
@@ -28,7 +29,6 @@ export class App {
   }
 
   onCategoryChange(element: EventTarget | null) {
-    if (!element) return;
     if (!(element instanceof HTMLSelectElement)) return;
     this.selectedCategory.set(element.value);
     // selectedItemはlinkedSignalで自動更新
@@ -36,7 +36,6 @@ export class App {
   }
 
   onItemChange(element: EventTarget | null) {
-    if (!element) return;
     if (!(element instanceof HTMLSelectElement)) return;
     this.selectedItem.set(element.value);
     console.log('アイテム変更:', element.value);
